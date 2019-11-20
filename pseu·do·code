@@ -1,0 +1,17 @@
+Things already have:index.html,package json,journal json,
+note.html,css style and javascrit code as part of front-end.
+
+Things i will do : Build a full back-end functionallity.
+1) HTML routes in js node: a) Get/notes that will return
+the notes.html file.
+2) Get/index should return the index.html file
+
+Create db.json file to store and strieve notes
+from html user using (fs) module.
+
+Use GET /api/notes to read the db.json file and return all saved data as jso.
+
+Use POST /api/notes to receive a new note,save to the request user
+then add it to the db.json file and return the data to the clients.
+
+Finally use DELETE /api/notes/:id means give a unique id to every note  after being saved.
